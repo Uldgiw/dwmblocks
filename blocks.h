@@ -1,4 +1,4 @@
-#define PATH(name)                      "/home/ludwig/dwmblocks/blocks/"name
+#define PATH(name)                      "/home/ludwig/pub/source/dwmblocks/blocks/"name
 
 /* DELIMITERENDCHAR must be less than 32.
  * At max, DELIMITERENDCHAR - 1 number of clickable blocks will be allowed.
@@ -32,6 +32,7 @@
 
 static Block blocks[] = {
 /*      pathu                           pathc                           interval        signal */
+        { PATH("internet.sh"),          NULL,                             10,             5},
         { PATH("clock.sh"),          NULL,                             30,             4},
         { PATH("calendar.sh"),          NULL,                          30,             1},
         { PATH("volume.sh"),            NULL,     		  	0,             2},

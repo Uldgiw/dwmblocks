@@ -20,4 +20,4 @@ esac
 
 time=$(date "+%R")
 
-printf "$ICON%s" "$time"
+printf "$ICON %s" "$time"
